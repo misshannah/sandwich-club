@@ -73,16 +73,16 @@ public class DetailActivity extends AppCompatActivity {
         String ingredients = String.valueOf(TextUtils.join(", ", sandwich.getIngredients()));
         String origin = sandwich.getPlaceOfOrigin();
         if (origin.isEmpty()) {
-            origin = "unkown";
+            origin = " unkown";
         }
         String akaString = String.valueOf(TextUtils.join(", ", sandwich.getAlsoKnownAs()));
         if (akaString.isEmpty()) {
-            akaLayout.setVisibility(View.INVISIBLE);
+            akaLayout.setVisibility(View.GONE);
         }
-        ingredientsText.setText(ingredients);
-        akaText.setText(akaString);
-        descriptionText.setText(sandwich.getDescription());
-        originText.setText(origin);
+        ingredientsText.setText(" "+ingredients);
+        akaText.setText(" "+akaString);
+        descriptionText.setText(" "+sandwich.getDescription());
+        originText.setText(" "+origin);
 
     }
 }

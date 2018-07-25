@@ -25,71 +25,83 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
-
+            <!-- Place of Origin Label-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
                 android:text="@string/detail_place_of_origin_label"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/origin_tv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"/>
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/aka_Layout"
+            android:padding="@dimen/text_padding"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:visibility="visible"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
-
+            <!-- Also Known as Label-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_also_known_as_label"
+                android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/also_known_tv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
-
+            <!-- Ingredients Label-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_ingredients_label"
+                android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/ingredients_tv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
             android:orientation="horizontal">
-
+            <!-- Description Label-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_description_label"
+                android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/description_tv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"/>
 
         </LinearLayout>
 
