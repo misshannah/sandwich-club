@@ -40,8 +40,10 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/aka_Layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="visible"
             android:orientation="horizontal">
 
             <TextView
